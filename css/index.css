@@ -137,9 +137,6 @@ button:hover{
 
 @media(max-width: 500px){
 
-  header{
-      background-color: lime;
-  }
 
   nav{
       width: 55%;
@@ -152,16 +149,18 @@ button:hover{
     flex-direction: column;
     align-items: center;
     align-items: center;
+   
     
 }
 
-.artist img{
-    display: block;
-    width: 100%;
-    max-width: 500px; /*actual image width*/
+ img{
+    height: 600%;
     
-
 }
 
-  
+h1, p, .name, .bio {	
+    font-family: 'Raleway', sans-serif;	
+    text-align: center;	
+    margin: 7%;	
+}
 }
